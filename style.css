@@ -18,7 +18,7 @@ width: 100%;
 }
 
 .mcounter{
-    
+display: flex;
 height: 50px;
 width: 120px;
 background-color: black;
@@ -33,7 +33,7 @@ border-radius: 25px;
 }
 
 .dcounter{
-    
+    display: flex;    
     height: 50px;
     width: 120px;
     background-color: black;
@@ -61,7 +61,7 @@ h1{
 }
 
 .hcounter{
-    
+    display: flex;
     height: 50px;
     width: 120px;
     background-color: black;
