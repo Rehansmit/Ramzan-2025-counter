@@ -1,5 +1,4 @@
 
-
 var ramadanDate = new Date('Feb 28 , 2025')
 
 var todaydate = new Date()
@@ -11,6 +10,6 @@ var Month = Math.floor(differenceDate / (1000  * 60 * 60 * 24 * 30))
 var Hours = Math.floor(differenceDate / (1000  * 60 * 60 ))
 
 
-document.getElementById('monthcounter').innerHTML = `<span> ${Month} </span>`
-document.getElementById('dayscounter').innerHTML = `<span> ${days} </span>`
-document.getElementById('hourscounter').innerHTML = `<span> ${Hours} </span>`
+document.getElementById('month').innerHTML = `<span> ${Month} </span>`
+document.getElementById('days').innerHTML = `<span> ${days} </span>`
+document.getElementById('hours').innerHTML = `<span> ${Hours} </span>`

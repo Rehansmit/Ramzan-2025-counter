@@ -1,103 +1,34 @@
-*{
-    background-color: black;
-    color: orange;
-}
+*{background-color: black;
+color: white;}
 
-
-.main{
-flex-direction: row;
-justify-content:center ;
-background-color: black;
-display: flex;
-justify-content: center;
-column-gap: 50px;
-height: 250px;
-width: 100%;
-    
-    
-}
-
-.mcounter{
-display: flex;
-height: 50px;
-width: 120px;
-background-color: black;
-color: white;
-font-size: xx-large;
-font-weight: bolder;
-padding: 10px;
-justify-content: center;
-text-align: center;
-border: 10px solid white;
-border-radius: 25px;
-}
-
-.dcounter{
-    display: flex;    
-    height: 50px;
-    width: 120px;
-    background-color: black;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-    border: 10px solid white;
-    border-radius: 25px;
-}
 
 h1{
+    justify-content: center;
     text-align: center;
     background-color: black;
-    color: white;
-    width: 100%;
-    height: 40px;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
-    border: 5px solid orangered;
-    border-radius: 30px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.hcounter{
-    display: flex;
-    height: 50px;
-    width: 120px;
-    background-color: black;
-    color: white;
+#month{
+    text-align: center;
     font-size: xx-large;
     font-weight: bolder;
-    padding: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+#days{
     text-align: center;
-    margin-top: 10px;
-    border: 10px solid white;
-    border-radius: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 4px solid white;
+    border-radius: 10px;
 }
-.top{
-    margin-top: 50px;
+#hours{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 4px solid white;
+    border-radius: 10px;
 }
-
-.back-img{
-  background-size: cover; 
-  background-color: black;
-  text-align: center;
-  
-    }
-
-    img{
-        height: 250px;
-        border: 20px solid yellowgreen;
-        
-
-    }
-
-    .bootom{
-        margin-top: 20px;
-        width: 100%;
-        height: 20px;
-        background-color: black;
-        color:white;
-        border: 2px solid orangered;
-
-    }
